@@ -15,43 +15,9 @@
   ],
   "modules": [
     "shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json",
-    {
-      "name": "python3-setuptools_scm",
-      "buildsystem": "simple",
-      "build-commands": [
-        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} setuptools_scm"
-      ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/8d/93/d380ad3ee3acdec01ef5fc1096214b57a8cbeab1e5e95eebf5e78b480d94/setuptools_scm-3.4.3-py2.py3-none-any.whl",
-          "sha256": "f7a5091d8de1b1491068623e9acbe7e881d62986e4c0af7f361424622902ff08"
-        }
-      ],
-      "cleanup": [
-        "*"
-      ]
-    },
-    {
-      "name": "python3-python-dateutil",
-      "buildsystem": "simple",
-      "build-commands": [
-        "python3 setup.py install --prefix=${FLATPAK_DEST} --root=/"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/dateutil/dateutil/releases/download/2.8.1/python-dateutil-2.8.1.tar.gz",
-          "sha256": "73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"
-        },
-        {
-          "type": "shell",
-          "commands": [
-            "sed -i 's/if not platform_/if not dirs/' setup.py"
-          ]
-        }
-      ]
-    },
+    "libusb.json",
+    "python3-setuptools.json",
+    "python3-python-dateutil.json",
     "pypi-dependencies.json",
     {
       "name": "gx52",
