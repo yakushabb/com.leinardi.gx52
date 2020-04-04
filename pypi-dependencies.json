@@ -26,13 +26,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/03/92/705fe8aca27678e01bbdd7738173b8e7df0088a2202c80352f664630d638/typing_extensions-3.7.4.1-py3-none-any.whl",
-                    "sha256": "cf8b63fedea4d89bab840ecbb93e75578af28f76f66c35889bd7065f5af88575"
+                    "url": "https://files.pythonhosted.org/packages/80/5f/c6ff0fb5ac88cb1776c95321fddf79e1766c595ae2b9e8ff75625b81762d/injector-0.18.3-py2.py3-none-any.whl",
+                    "sha256": "04c15a965504c4628873a56886950bd254102552a1d41ee983bfb1a7f7c7e7d6"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/80/5f/c6ff0fb5ac88cb1776c95321fddf79e1766c595ae2b9e8ff75625b81762d/injector-0.18.3-py2.py3-none-any.whl",
-                    "sha256": "04c15a965504c4628873a56886950bd254102552a1d41ee983bfb1a7f7c7e7d6"
+                    "url": "https://files.pythonhosted.org/packages/0c/0e/3f026d0645d699e7320b59952146d56ad7c374e9cd72cd16e7c74e657a0f/typing_extensions-3.7.4.2-py3-none-any.whl",
+                    "sha256": "6e95524d8a547a91e08f404ae485bbb71962de46967e1b71a0cb89af24e761c5"
                 }
             ]
         },
@@ -40,13 +40,13 @@
             "name": "python3-peewee",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} peewee==3.13.1"
+                "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} peewee==3.13.2"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d4/30/0083f0e484902d118927236497c5f55c14a46c2a0e1b95083d26e5608371/peewee-3.13.1.tar.gz",
-                    "sha256": "9492af4d1f8e18a7fa0e930960315b38931286ea0f1659bbd5503456cffdacde"
+                    "url": "https://files.pythonhosted.org/packages/07/5f/a0813e99eacab8029b8bbe8c77b357934e55dd08a09e6f36ff77d89d943e/peewee-3.13.2.tar.gz",
+                    "sha256": "85f6696b6691a315646047e0b19e9a28258b35612b7121bc4eb1b61ff53c760a"
                 }
             ]
         },
