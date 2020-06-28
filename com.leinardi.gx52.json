@@ -29,8 +29,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/leinardi/gx52.git",
-          "tag": "0.7.1",
-          "commit": "5ff7e8cd7c4e09229231dfb6d38ffb1c6d55449e"
+          "tag": "0.7.2",
+          "commit": "f22237da3ea9dea06a588628b486cc42748a7e95"
         }
       ]
     }
