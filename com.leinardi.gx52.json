@@ -2,7 +2,7 @@
   "app-id": "com.leinardi.gx52",
   "command": "gx52",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "finish-args": [
     "--share=ipc",
@@ -12,6 +12,12 @@
     "--share=network",
     "--talk-name=org.kde.StatusNotifierWatcher",
     "--talk-name=org.freedesktop.Flatpak"
+  ],
+  "cleanup": [
+    "*.la",
+    "*.a",
+    "/include",
+    "/lib/pkgconfig"
   ],
   "modules": [
     "shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json",
