@@ -2,7 +2,7 @@
   "app-id": "com.leinardi.gx52",
   "command": "gx52",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "finish-args": [
     "--share=ipc",
@@ -12,6 +12,12 @@
     "--share=network",
     "--talk-name=org.kde.StatusNotifierWatcher",
     "--talk-name=org.freedesktop.Flatpak"
+  ],
+  "cleanup": [
+    "*.la",
+    "*.a",
+    "/include",
+    "/lib/pkgconfig"
   ],
   "modules": [
     "shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json",
@@ -29,8 +35,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/leinardi/gx52.git",
-          "tag": "0.7.2",
-          "commit": "f22237da3ea9dea06a588628b486cc42748a7e95"
+          "tag": "0.7.3",
+          "commit": "9ce19b16e4d94fa4c1e43583927357ba3e9d0be5"
         }
       ]
     }
