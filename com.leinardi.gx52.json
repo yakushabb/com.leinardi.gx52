@@ -2,7 +2,7 @@
   "app-id": "com.leinardi.gx52",
   "command": "gx52",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "44",
   "sdk": "org.gnome.Sdk",
   "finish-args": [
     "--share=ipc",
@@ -35,8 +35,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/leinardi/gx52.git",
-          "tag": "0.7.5",
-          "commit": "3ec1d1d10438349126bec42fa8654e8ac485bb19"
+          "tag": "0.7.6",
+          "commit": "4bdbe30383fd01782b4ffa991dd3a3a55816b106"
         }
       ]
     }
